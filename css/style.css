@@ -8,7 +8,8 @@
     box-sizing: content-box;
 }
 
-body, html {
+body, header, html {
+    background-color: var(--color-secundary);
     height: 100%;
 }
 
@@ -20,8 +21,16 @@ body, html {
 
 }
 
+.menu-principal .Barra-horizontal{
+    height: 10%;
+}
+
 .menu-principal .imagen-logo{
     margin-top: 14px;
+}
+
+.menu-principal .contenido{
+    height: 70%;
 }
 
 .Barra-horizontal{
@@ -54,14 +63,14 @@ body, html {
 }
 
 .contenido-izquierda {
-    margin-right: 40px;
+    margin-right: 50px;
 }
 
 .contenido-izquierda img{
-    width: 500px;
+    height: 600px;
 }
 
-.contenido-derecha h1{
+.contenido-derecha .titulo{
     width: 400px;
     font-size: 50px;
     color: var(--color-primary);
@@ -75,6 +84,14 @@ body, html {
     font-family: "Poppins", sans-serif;
     font-style: normal;
     font-size: 20px;
+}
+
+.contenido-derecha h1{
+    width: 500px;
+    color: var(--color-font);
+    font-family: "Poppins", sans-serif;
+    font-style: normal;
+    font-size: 40px;
 }
 
 .boton-menu{
@@ -93,3 +110,62 @@ body, html {
 }
 
 /* Comienzo About */
+.About{
+    background-color: var(--color-secundary);
+    width: 100%;
+    height: 100%;
+}
+
+.contenido-2{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 60px;
+}
+
+.our-food-quality{
+    margin-top: 200px;
+    background-image: url("../storage/img/placeYourImageHereFood.png");
+    background-size: 100%;
+    background-repeat: no-repeat;
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.imagen-1{
+    width: 100%;
+    justify-content: flex-end;
+    display: flex;
+    margin-top: -100px;
+}
+
+.imagen-1 img{
+    width: 500px;
+    height: 900px;
+}
+
+.contenido-3{
+    display: flex;
+    width: 500px;
+    height: 500px;
+    flex-direction: column;
+    align-items: flex-start;
+    margin-top: -500px;
+    margin-left: 200px;
+}
+
+.contenido-3 h1{
+    color: var(--color-font);
+    font-family: "Poppins", sans-serif;
+    font-style: normal;
+    font-size: 40px;
+}
+
+.contenido-3 p{
+    color: var(--color-font);
+    font-family: "Poppins", sans-serif;
+    font-style: normal;
+    font-size: 30px;
+}
+
