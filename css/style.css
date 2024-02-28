@@ -1,4 +1,5 @@
 @import url(variables.css);
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto+Slab:wght@100..900&display=swap');
 
 *{
     font-family: "Roboto Slab", serif;
@@ -23,7 +24,7 @@ body, html {
     margin-top: 14px;
 }
 
-.Barra-vertical{
+.Barra-horizontal{
     display: flex;
     flex-direction: row;
     align-items: center;
@@ -31,8 +32,8 @@ body, html {
 }
 
 .item-1, li{
-    display: flex;
-    margin-right: 50px;
+    display: inline;
+    margin-right: 20px;
 }
 
 .item-1 a{
@@ -48,18 +49,47 @@ body, html {
     display: flex;
     align-items: center;
     justify-content: center;
-    flex-wrap: wrap;
-    margin-top: 80px;
+    flex-direction: row;
+    margin: 100px;
 }
 
-.contenido-izquierda{
-    margin-right: 50px;
+.contenido-izquierda {
+    margin-right: 40px;
+}
+
+.contenido-izquierda img{
+    width: 500px;
 }
 
 .contenido-derecha h1{
+    width: 400px;
+    font-size: 50px;
     color: var(--color-primary);
+    font-family: "Poppins", sans-serif;
+    font-style: normal;
 }
 
 .contenido-derecha p{
+    width: 500px;
     color: var(--color-font);
+    font-family: "Poppins", sans-serif;
+    font-style: normal;
+    font-size: 20px;
 }
+
+.boton-menu{
+    background-color: var(--color-primary);
+    color: black;
+    font-weight: bold;
+    font-family: "Poppins", sans-serif;
+    font-style: normal;
+    border: none;
+    cursor: pointer;
+    font-size: 20px;
+    width: 150px;
+    height: 60px;
+    border-radius: 10px;
+    margin-top: 10px;
+}
+
+/* Comienzo About */
