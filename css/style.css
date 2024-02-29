@@ -178,14 +178,19 @@ body, section, html {
 }
 
 .imagenes-2-3 .imagen-3{
-    margin-top: 350px;
+    margin-top: 540px;
+}
+
+.imagenes-2-3 .imagen-2{
+    height: 870px;
+    width: 870px;
 }
 
 /* Gallery */
 
 .gallery{
     width: 100%;
-    height: 145%;
+    height: 1236px;
     margin-top: 50px;
     display: flex;
     flex-direction: column;
@@ -260,3 +265,151 @@ body, section, html {
     width: 605px;
     margin-top: 20px;
 }
+
+/* Our menu */
+
+.Our-menu{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+
+.Our-menu .titulo{
+    display: flex;
+    margin-top: 50px;
+    color: var(--color-font);
+    font-family: "Poppins", sans-serif;
+    font-style: normal;
+    font-size: 40px;
+}
+
+.menu{
+    display: flex;
+    width: 100%;
+    height: 100%;
+    justify-content: center;
+}
+
+.menu h1{
+    color: var(--color-primary);
+    font-family: "Poppins", sans-serif;
+    font-style: normal;
+    font-size: 25px;
+    margin-top: 20px;
+}
+
+.menu p{
+    color: var(--color-font);
+    font-family: "Poppins", sans-serif;
+    font-style: normal;
+
+}
+
+.menu .precio{
+    color: var(--color-primary);
+    font-family: "Poppins", sans-serif;
+    font-style: normal;
+    font-size: 20px;
+    margin-top: 20px;
+}
+
+.menu .menu-1{
+    margin: 50px;
+    width: 400px;
+    height: 700px;
+    display: flex;
+    flex-direction: column;
+}
+
+.menu .menu-2{
+    margin: 50px;
+    width: 400px;
+    height: 700px;
+    display: flex;
+    flex-direction: column;
+}
+
+.menu .menu-3{
+    margin: 50px;
+    width: 400px;
+    height: 700px;
+    display: flex;
+    flex-direction: column;
+}
+
+.menu img{
+    width: 407px;
+    height: 360px;
+}
+
+/* enjoy best mea */
+
+.enjoy-best-mea{
+    background-color: var(--color-primary);
+    display: flex;
+    height: 600px;
+
+}
+
+.enjoy-best-mea .contenido-izquierda{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.enjoy-best-mea .contenido-izquierda img{
+    width: 700px;
+    height: 700px;
+}
+
+.enjoy-best-mea .contenido-derecha{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+    height: 600px;
+}
+
+.enjoy-best-mea .contenido-derecha p{
+    margin-top: 20px;
+}
+
+/* footer */
+
+footer{
+    background-color: #323239;
+    display: flex;
+    height: 300px;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+}
+
+footer .Barra-footer{
+    margin-top: 20px;
+    display: flex;
+}
+
+.items-footer{
+    width: 1000px;
+    display: flex;
+    justify-content: center;
+}
+
+footer .items-footer li{
+    display: inline;
+}
+
+footer .items-footer a{
+    color: var(--color-font);
+    text-decoration: none;
+}
+
+.iconos{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 50px;
+}
+    
